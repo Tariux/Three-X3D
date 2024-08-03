@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - skinning and morphing</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+		<style>
+			body {
+				color: #222;
+			}
+
+			a {
+				color: #2fa1d6;
+			}
+
+			p {
+				max-width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 0 2em;
+			}
+            #robot-container {
+                width: 300px;
+                height: 300px;
+                display: block;
+                margin: 10rem auto;
+            }
+            #robot-container canvas {
+                max-width: 100%;
+                max-height: 100%;
+            }
+		</style>
+	</head>
+
+	<body>
+        <div id="robot-container"></div>
+        <script type="module" src="./robot.js"></script>
+	</body>
+</html>
